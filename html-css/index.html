@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio | Shrinivas Avduthwar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo">Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+        <div class="hero">
+            <h1>Hi, I'm <span class="highlight">Shrinivas Avduthwar</span></h1>
+            <p class="hero-tagline">Full Stack Developer & Creative Problem Solver</p>
+            <a href="#contact" class="btn btn-primary">Get in Touch</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>I'm a passionate student pursuing Full Stack Development with a keen interest in building clean, efficient, and user-centered web applications. I enjoy turning complex problems into simple, elegant solutions.</p>
+                <p>When I'm not coding, you'll find me exploring new technologies, contributing to open source, or refining my design skills. I believe in continuous learning and staying curious.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills">
+            <h2>Skills</h2>
+            <ul class="skills-grid">
+                <li class="skill-card">HTML5</li>
+                <li class="skill-card">CSS3</li>
+                <li class="skill-card">JavaScript</li>
+                <li class="skill-card">React</li>
+                <li class="skill-card">Node.js</li>
+                <li class="skill-card">Git</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="section projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>Project Alpha</h3>
+                    <p>A responsive web application built with modern frontend technologies.</p>
+                </article>
+                <article class="project-card">
+                    <h3>Project Beta</h3>
+                    <p>Full-stack solution with RESTful API and clean architecture.</p>
+                </article>
+                <article class="project-card">
+                    <h3>Project Gamma</h3>
+                    <p>Open source contribution focusing on developer experience.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <h2>Contact</h2>
+            <div class="contact-content">
+                <p>Feel free to reach out! I'm always open to discussing new projects and opportunities.</p>
+                <a href="mailto:shrinivasavduthwar@gmail.com" class="btn btn-secondary">Email Me</a>
+                <div class="contact-links">
+                    <a href="https://github.com/shrinivasavduthwar" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://www.linkedin.com/in/shrinivas-avduthwar-900722289/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Shrinivas Avduthwar. Crafted with care.</p>
+    </footer>
+
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('open');
+        });
+    </script>
+</body>
+</html>
